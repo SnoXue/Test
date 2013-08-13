@@ -1,0 +1,18 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="StartupTutorialButton">
+        <item name="android:textSize">32sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <style name="UserGuideButton">
+        <item name="android:textSize">32sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

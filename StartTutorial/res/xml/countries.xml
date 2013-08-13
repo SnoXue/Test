@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country-header>
+
+    <country>
+        <name>España</name>
+        <language>Español(España)</language>
+        <language>Catalán</language>
+        <language>Inglés</language>
+    </country>
+    
+    <country>
+        <name>Mexico</name>
+        <language>Español(Mexico)</language>
+        <language>Español(Internacional)</language>
+        <language>Inglés</language>
+    </country>
+
+    <country>
+        <name>EEUU</name>
+        <language>Español(Internacional)</language>
+        <language>Inglés</language>
+    </country>
+    
+    <country>
+        <name>Chile</name>
+        <language>Español(Chile)</language>
+        <language>Español(Internacional)</language>
+        <language>Inglés</language>
+    </country>
+    
+    <country>
+        <name>Colombia</name>
+        <language>Español(Colombia)</language>
+        <language>Español(Internacional)</language>
+        <language>Inglés</language>
+    </country>
+    
+    <country>
+        <name>Brasil</name>
+        <language>Portugues(Brasil)</language>
+        <language>Español(Internacional)</language>
+        <language>Inglés</language>
+    </country>
+</country-header>

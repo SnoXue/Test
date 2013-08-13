@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<locale-header>
+    <locale>
+        <language>Español(España)</language>
+        <value>es_ES</value>
+    </locale>
+    
+    <locale>
+        <language>Catalán</language>
+        <value>ca_ES</value>
+    </locale>
+    
+    <locale>
+        <language>Inglés</language>
+        <value>en_US</value>
+    </locale>
+    
+    <locale>
+        <language>Español(Mexico)</language>
+        <value>es_MX</value>
+    </locale>
+    
+    <locale>
+        <language>Español(Internacional)</language>
+        <value>es_US</value>
+    </locale>
+    
+    <locale>
+        <language>Español(Chile)</language>
+        <value>es_CL</value>
+    </locale>
+    
+    <locale>
+        <language>Español(Colombia)</language>
+        <value>es_CO</value>
+    </locale>
+    
+    <locale>
+        <language>Portugues(Brasil)</language>
+        <value>pt_BR</value>
+    </locale>
+</locale-header>

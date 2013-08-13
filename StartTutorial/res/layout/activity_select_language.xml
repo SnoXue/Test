@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/vendor_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/language_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vendor_logo"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/spanish_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/es_es_select_language" />
+
+        <TextView
+            android:id="@+id/chinese_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/ca_es_select_language" />
+
+        <TextView
+            android:id="@+id/english_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/en_us_select_language" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/language_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/prev_step"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/language_tips"
+        android:divider="@null"
+        android:padding="20dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/prev_step"
+        style="@style/StartupTutorialButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="22dp"
+        android:background="@drawable/startup_button"
+        android:text="@string/prev_step" />
+
+</RelativeLayout>
